@@ -260,9 +260,9 @@ namespace ConsoleApp16
                     Console.Write("* ");
                 }
             }
+
             Console.WriteLine();
         }
-
         public static void FindGCD(int n, int n1)
         {
             int gdc = 0;
@@ -276,6 +276,7 @@ namespace ConsoleApp16
                     }
                 }
             }
+
             Console.WriteLine(gdc);
         }
 
@@ -293,6 +294,7 @@ namespace ConsoleApp16
                     }
                 }
             }
+
             Console.WriteLine(lcm);
         }
         
@@ -311,6 +313,7 @@ namespace ConsoleApp16
                     }
                 }
             }
+
             return false;
         }
 
