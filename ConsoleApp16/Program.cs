@@ -263,7 +263,6 @@ namespace ConsoleApp16
 
             Console.WriteLine();
         }
-
         public static void FindGCD(int n, int n1)
         {
             int gdc = 0;
