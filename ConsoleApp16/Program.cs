@@ -323,6 +323,7 @@ namespace ConsoleApp16
                 sum += arr[i];
                 count++;
             }
+
             return sum / count;
         }
 
@@ -340,6 +341,7 @@ namespace ConsoleApp16
                 count++;
                 n/= 10;
             }
+
             return count;
         }
         public static bool ChekArm(int n)
@@ -352,10 +354,12 @@ namespace ConsoleApp16
                 sum += Math.Pow(x, ReturnDigCount(c));
                 n/= 10;
             }
+
             if(sum == c)
             {
                 return true ;
             }
+
             return false ;
         }
 
@@ -379,6 +383,7 @@ namespace ConsoleApp16
                     max = str[i].Length;
                 }
             }
+
             return max;
         }
 
@@ -420,6 +425,7 @@ namespace ConsoleApp16
                     }
                 }
             }
+
             Console.WriteLine(arr[1]);
         }
 
